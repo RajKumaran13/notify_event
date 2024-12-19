@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "567607274224",
+    "project_id": "notify-eve",
+    "storage_bucket": "notify-eve.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567607274224:android:a0891578cb76333c34f035",
+        "android_client_info": {
+          "package_name": "com.example.notify_event"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSeW7TfBPujOlthtDB4JHy3OLM9YbRH7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
