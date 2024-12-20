@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:notify_event/event_list_page.dart';
-
 class AddEventPage extends StatefulWidget {
   const AddEventPage({super.key});
 
@@ -215,7 +214,24 @@ class _AddEventPageState extends State<AddEventPage> {
                             style: TextStyle(fontSize: 18),
                           ),
                   ),
+                 
                 ),
+        //          ElevatedButton(
+        //   onPressed: () async {
+        //     final now = DateTime.now().add(const Duration(seconds: 10));
+        //     await NotificationService.scheduleNotification(
+        //       id: 0,
+        //       title: 'Test Notification',
+        //       body: 'This is a test notification.',
+        //       scheduledDate: now,
+        //     );
+        //     ScaffoldMessenger.of(context).showSnackBar(
+        //       const SnackBar(content: Text('Notification scheduled for 10 seconds from now.')),
+        //     );
+        //   },
+        //   child: const Text('Test Notification'),
+        // ),
+
               ],
             ),
           ),
