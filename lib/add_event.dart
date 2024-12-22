@@ -216,21 +216,7 @@ class _AddEventPageState extends State<AddEventPage> {
                   ),
                  
                 ),
-        //          ElevatedButton(
-        //   onPressed: () async {
-        //     final now = DateTime.now().add(const Duration(seconds: 10));
-        //     await NotificationService.scheduleNotification(
-        //       id: 0,
-        //       title: 'Test Notification',
-        //       body: 'This is a test notification.',
-        //       scheduledDate: now,
-        //     );
-        //     ScaffoldMessenger.of(context).showSnackBar(
-        //       const SnackBar(content: Text('Notification scheduled for 10 seconds from now.')),
-        //     );
-        //   },
-        //   child: const Text('Test Notification'),
-        // ),
+        
 
               ],
             ),

@@ -110,18 +110,18 @@ class EventListPage extends StatelessWidget {
   void scheduleEventNotifications(
       DateTime eventDateTime, String eventDescription) {
     final intervals = [
-      Duration(days: 1), // 1 day before
-      Duration(hours: 12), // 12 hours before
-      Duration(hours: 8), // 8 hours before
-      Duration(hours: 4), // 4 hours before
-      Duration(hours: 2), // 2 hours before
-      Duration(hours: 1), // 1 hour before
-      Duration(minutes: 45), // 45 minutes before
-      Duration(minutes: 30), // 30 minutes before
-      Duration(minutes: 15), // 15 minutes before
-      Duration(minutes: 10), // 10 minutes before
-      Duration(minutes: 5), // 5 minutes before
-      Duration(minutes: 1), // 1 minute before
+      const Duration(days: 1), // 1 day before
+      const Duration(hours: 12), // 12 hours before
+      const Duration(hours: 8), // 8 hours before
+      const Duration(hours: 4), // 4 hours before
+      const Duration(hours: 2), // 2 hours before
+      const Duration(hours: 1), // 1 hour before
+      const Duration(minutes: 45), // 45 minutes before
+      const Duration(minutes: 30), // 30 minutes before
+      const Duration(minutes: 15), // 15 minutes before
+      const Duration(minutes: 10), // 10 minutes before
+      const Duration(minutes: 5), // 5 minutes before
+      const Duration(minutes: 1), // 1 minute before
     ];
 
     for (final interval in intervals) {
