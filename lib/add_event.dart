@@ -95,7 +95,8 @@ class _AddEventPageState extends State<AddEventPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add New Event'),
+        title: const Center(child: Text('Register Your Events',style: TextStyle(
+                            fontSize: 24, fontWeight: FontWeight.bold),)),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
